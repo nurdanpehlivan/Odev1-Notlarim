@@ -1,0 +1,441 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  background-color:#632926;
+}
+.container{
+    padding: 0 20px;
+}
+#menu{
+    height: 100px;
+    padding: 0 20px;
+    background-color: #632926;
+}
+.logo{
+    line-height: 80px;
+    float: left;
+    height: auto;
+
+}
+nav{
+    float: right;
+    line-height: 80px;
+   
+}
+nav a{
+    margin-right: 25px;
+    text-decoration: none;
+    color:#19a492;
+    font-size: 20px;
+}
+nav a:hover{
+    color: white;
+    border-bottom: 3px solid #19a492;
+    transition: all ease 1s;
+}
+nav a:hover i{
+   color:black;
+}
+nav a i{
+    color: #fff;
+    font-size: 22px;
+}
+#anasayfa{
+    height: 600px;
+    background-color: #16a18f;
+   background-image: url(güzelpx.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment:local;
+    text-align: left;
+    margin: 0 auto;
+    color: white;
+}
+#arka{
+    height: 600px;
+}
+
+#icerik,#icerik7,#icerik8{
+    display:inline-flex;
+}
+#anasayfa hr{
+    text-align: center;
+}
+
+#icerik img:hover{
+    transform: scale(0.9);
+    transition: all ease 1s;
+}
+
+
+
+#icerik img,#icerik2 img, #icerik3 img, #icerik4 img,#icerik5 img,#icerik6 img,#icerik7 img,#icerik8 img,#icerik9 img{
+    cursor: pointer;
+}
+
+#icerik2 img:hover, #icerik8 img:hover{
+    transform: scale(1.2);
+    transition: all ease-in-out 1s;
+}
+#icerik,#icerik2,#icerik3,#icerik4,#icerik5,#icerik6,#icerik7,#icerik8,#icerik9{
+    display: inline-flex;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+.computer-box h4{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+.menum h1{
+  font-style: initial;
+  font-size: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#icerik3 img:hover{
+   
+  animation: bounce 1s infinite;
+}
+
+.computer-box,.owl-carousel img{
+    text-align: center;
+    padding: 20px;
+    margin: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 15px #16a18f; 
+    background-color: white;
+}
+.computer-container h4{
+  text-align: center;
+}
+  @keyframes bounce {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+
+  .best-sellers {
+    max-width: 800px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.scrolling-container {
+    overflow-x: auto;
+    overflow-y: auto;
+    overflow-wrap:inherit;
+    white-space: nowrap;
+    display: flex;
+    gap: 20px; /* Kutular arasında 20px boşluk bırakır */
+}
+
+.computer-box img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+/* Dropdown stilini düzenleme */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width: 200px; /* Dropdown menü genişliği */
+  padding: 10px; /* İçerik içindeki boşluk */
+  font-size: 14px;
+  margin-right: -10px;
+}
+
+/* Dropdown butonunun stilini düzenleme */
+.dropbtn {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+
+/* Dropdown içeriğinin stilini düzenleme */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #16a18f;
+  min-width: 160px;
+  box-shadow: 0 8px 16px #632926;
+  z-index: 1;
+}
+
+/* Dropdown içeriğindeki bağlantıların stilini düzenleme */
+.dropdown-content a {
+  color: black;
+  padding: 6px 8px;
+  text-decoration: none;
+  display: block;
+}
+
+
+
+/* Dropdown içeriği görüntülendiğinde düğme rengini değiştirme */
+.dropdown:hover .dropbtn {
+  color:#632926;
+}
+
+/* Dropdown içeriği görüntülendiğinde içeriği gösterme */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.computer-box2{
+  text-align: center;
+  padding: 10px;
+  margin: 7px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+.flarumtr-ust div span {
+  display: block;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.flarumtr-ust {
+  width: 100%;
+  display: table;
+  
+}
+
+.flarumtr-footer  .flarumtr-ust div span {
+  display: block;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.flarumtr-footer .flarumtr-ust div {
+  display: table-cell;
+  width: 33%;
+  color: #667c99;
+  height: 90px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.flarumtr-footer {
+width: 100%;
+overflow: hidden;
+background-color: #e8ecf3;
+background-position: unset;
+color: #667c99;
+border-color: #d9dde4;
+border-style: inset;
+border-width: 1px;
+}
+
+@media screen and (max-width: 600px) {
+.footergizle {
+  visibility: hidden;
+  clear: both;
+  height: auto;
+  display: none;
+}
+}
+.social {
+margin: 0 auto;
+width: 600px;
+text-align: center;
+}
+[class^="icon-btn"] /*.icon-btn*/ {
+height: 35px;
+width: 35px;
+border: 0;
+cursor: pointer;
+font-size: 25px;
+line-height: 35px;
+border-radius: 30px;
+margin-left: 10px;
+background-color: #e8ecf3;
+}
+.twitter {
+color: #4099FF;
+}
+.discord {
+color: #7289da;
+}
+.instagram {
+color: #c32aa3;
+}
+.youtube {
+color: #ff0000;
+}
+
+a.link {
+color: inherit;	
+} /* sosyal medya */
+.flarumtr-footer {
+  margin-top: 30px;
+}
+
+section{
+  padding: 3.5rem 7%;
+  text-align: center; /* Yazıyı fotoğrafın enine doğru ortala */
+  margin: 0 auto;
+}
+
+#slideshow-container {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.mySlides {
+  display: inline-block;
+  width: 100%; /* Slayt konteynerine bağlı olarak genişlik ayarlanacak */
+  max-width: 200px; /* İstediğiniz genişliği ayarlayabilirsiniz */
+  height: auto;
+  transition: transform 1s ease-in-out;
+  text-align: center;
+  padding: 20px;
+  margin: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+#slideshow-container {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.mySlidess {
+  display: inline-block;
+  width: 100%;
+  max-width: 300px; /* İstediğiniz genişliği ayarlayabilirsiniz */
+  height: auto;
+  transition: transform 1s ease-in-out;
+
+  text-align: center;
+  padding: 20px;
+  margin: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+  max-width: 10%;
+  object-fit: cover;
+
+}
+
+.gallery-container {
+  position: relative;
+  overflow: hidden;
+  max-width: 30%;
+  object-fit: cover;
+}
+
+.sliderk {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.prev-btn,
+.next-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.prev-btn {
+  left: 10px;
+}
+
+.next-btn {
+  right: 10px;
+}
+
+
+#anasayfa p{
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.8;
+  padding: 1rem 0;
+  color: #ccc;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.btnknk{
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 8px 20px; /* Küçültülmüş padding değerleri */
+  border-radius: 50px; /* Kenar yarıçapını ayarla */
+  font-size: 20px; /* Küçültülmüş font size */
+  color: white;
+  background-color:black;
+  cursor: pointer;
+  text-decoration: none; /* Altı çiziliyi kaldır */
+  border: 2px solid black;
+}
+.heading{
+color: #16a18f;
+margin-bottom: 3.5rem;
+border-bottom: 0.1rem solid #16a18f;
+text-shadow: 0 0 20px #16a18f;
+}
+.headingo{
+color: #16a18f;
+margin-bottom: 3.5rem;
+border-bottom: 0.1rem solid #16a18f;
+max-width: 25%;
+text-align: center;
+text-shadow: 0 0 20px #16a18f;
+
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.a {
+  background-image: url('resimler/lenovoarka.jpg'); /* Arka plan resmi buraya eklenmeli */
+  background-size: cover; /* Arka plan resmini kaplamak için */
+  background-position: center; /* Resmi ortalamak için */
+  padding: 40px; /* İçerik ile arka plan arasındaki boşluk için */
+}
+#haberler {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #333;
+}
+
+.haber-karti {
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.haber-karti img {
+  max-width: 100%;
+  height: auto;
+}
+.islemci {
+  display: inline-flex;
+  margin-left: 60px;
+}
+.ekart{
+  display: inline-flex;
+  margin-left: 55%;
+}

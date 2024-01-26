@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+    
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    background-repeat: no-repeat;
+    background-image:url(images.jpg);
+    background-repeat:round;
+
+
+}
+
+.container {
+    position: relative;
+}
+
+.line {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 2px; /* Çizgi kalınlığı */
+    background-color: black; /* Çizgi rengi */
+}
+
+.photos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px; /* İhtiyaca göre ayarlayabilirsiniz */
+}
+
+.photos img {
+    width: 150px; /* İhtiyaca göre ayarlayabilirsiniz */
+    height: auto;
+}

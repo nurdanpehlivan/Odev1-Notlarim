@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+.container {
+    background:url(a.jpg);
+    height:100vh;
+    background-size: 100% 100%;
+}
+.container .navbar {
+    width:100%;
+    height:80px;
+    background: rgb(255, 70, 70);
+}
+.navbar.logo {
+    
+    margin-left: 50px;
+    margin-top: 20px;
+}
+img {
+    height: 95px;
+    width: 95px;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: #ccc;
+}
+.navbar ul{
+    float:right;
+    margin-right: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+    line-height: -8px;
+    justify-content: space-between;
+    
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: Roboto;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover {
+    background: greenyellow;
+    border-radius: 2px;
+}
+html,body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+header {
+    font-family:'Times New Roman', Times, serif
+}
+.ana{
+    background-color: #f1f1f1;
+}
+.search-container {
+    display: flex;
+    max-width: 300px;
+}
+
+#search-input {
+    padding: 10px;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+#search-button {
+    padding: 10px;
+    background-color: orangered;
+    color: white;
+    border: 1px solid orange;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    outline: none;
+}
+
+#search-button:hover {
+    background-color: orangered;
+}
+
+
+
+footer{
+    background-color: #d11187;
+    border-top: hsl(323, 100%, 33%) 5px solid;
+}
+footer section{
+    width:70%;
+    margin: 0 auto;
+}
+footer section div{
+    color:purple;
+    float:left;
+    box-sizing: border-box;
+    width: 33.33%;
+    padding: 1%;
+}
